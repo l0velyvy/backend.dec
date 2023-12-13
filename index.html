@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pythagorean Theorem</title>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pythagorean Theorem</h1>
+
+  <p>Example: a²+b² = c² </p>
+  <p>For a = 5 and b = 7:</p>
+  <p>5²+7² = 74</p>
+  <p>25 + 49 = 74</p>
+  <p>c=8.602325267042627</p>
+
+  <label for="sideA">Length of side A: </label>
+  <input type="number" id="sideA" placeholder="Enter the length of side A">
+
+  <br>
+
+  <label for="sideB">Length of side B: </label>
+  <input type="number" id="sideB" placeholder="Enter the length of side B">
+
+  <br><br>
+
+  <button onclick="calculatePythagorean()">Calculate</button>
+
+  <br><br>
+
+  <p id="result">Hypotenuse (side C): </p>
+
+  <script src="pythagorean.js"></script>
+
+</body>
+</html>

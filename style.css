@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background:
+    url("https://static.tumblr.com/ig0n9iy/4Fflxcb10/background.png")
+  }
+  
+  h1{
+    font-family: 'Teko', sans-serif;
+    font-size:7.5em;
+    line-height:1em;
+  }
+  h2{
+    font-family: 'Teko', sans-serif;
+    font-size:2em;
+    line-height:1em;
+  }
+  p{
+    font-family: 'Merriweather', serif;
+  }
+  #triangle{
+    margin:50px 500px;
+    border-top-width: 200px;
+    border-left-width: 200px;
+    border-style: solid;
+    border-color: transparent transparent transparent green;
+  }
+  button{
+    background:Salmon;
+    border:none;
+    margin-top:20px;
+    line-height:60px;
+    font-weight: bold;
+    padding: 0 40px;
+    font-size: 20px;
+  }
+  button:hover{
+    background:Cyan;
+    border: none;
+  }
+  #sqrtC{
+    color:Red;
+  }
+  
